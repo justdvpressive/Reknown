@@ -2,11 +2,11 @@ const Discord = require('discord.js');
 const fs = require('fs');
 const fuzz = require('fuzzball');
 const sql = new (require('pg')).Pool({
-  user: process.env.SQL_USER,
-  password: process.env.SQL_PASS,
-  database: process.env.SQL_DB,
-  port: process.env.SQL_PORT,
-  host: process.env.SQL_HOST,
+  user: "sql7289690",
+  password: "pLVeqkDATr",
+  database: "sql7289690",
+  port: "21",
+  host: "sql7.freemysqlhosting.net",
   ssl: true
 });
 
@@ -75,8 +75,8 @@ const client = {
   escMD: Discord.Util.escapeMarkdown,
   splitMessage: Discord.Util.splitMessage,
 
-  contributors: ['468848409202262027', '284857002977525760'],
-  ownerID: '288831103895076867',
+  contributors: ['547795693163642891'],
+  ownerID: '544580475952431104',
 
   mutes: new Discord.Collection(),
   prefixes: {},
